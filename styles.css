@@ -1,0 +1,72 @@
+:root {
+
+/*COLORS*/
+      /*primary*/
+--lightred: hsl(0, 100%, 67%);
+--orangeyyellow: hsl(39, 100%, 56%);
+--greenteal: hsl(166, 100%, 37%);
+--cobaltblue: hsl(234, 85%, 45%);
+
+      /*neutral*/
+--white: hsl(0, 0%, 100%);
+--paleblue: hsl(221, 100%, 96%);
+--lightlavender: hsl(241, 100%, 89%);
+--darkgrayblue: hsl(224, 30%, 27%);
+
+      /*gradients*/
+            /*background*/
+--lightslateblue: hsl(252, 100%, 67%);
+--lightroyalblue: hsl(241, 81%, 54%);
+            /*circle*/
+--violetblue: hsla(256, 72%, 46%, 1);
+--persianblue: hsla(241, 72%, 46%, 0);
+
+/*FONTS*/
+      /*font-family*/
+--ff: "Hanken Grotesk", sans-serif;
+
+      /*font-sizes*/
+--fs-16: 1rem;
+--fs-18: 1.125rem;
+--fs-24: 1.5rem;
+--fs-32: 2rem;
+--fs-56: 3.5rem;
+--fs-72: 4.5rem;
+
+      /*font-weights*/
+--fw-regular: 500;
+--fw-semi-bold: 700;
+--fw-bold: 800;
+
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+ 
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+  
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
